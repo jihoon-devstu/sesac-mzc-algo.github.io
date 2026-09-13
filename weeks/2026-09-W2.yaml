@@ -118,6 +118,12 @@ problems:
     url: https://school.programmers.co.kr/learn/courses/30/lessons/12977
     difficulty: 1
     label: Lv.1
+  - id: programmers-17680
+    source: programmers
+    title: "[1차] 캐시"
+    url: https://school.programmers.co.kr/learn/courses/30/lessons/17680
+    difficulty: 2
+    label: Lv.2
   - id: programmers-1844
     source: programmers
     title: 게임 맵 최단거리
@@ -148,6 +154,12 @@ problems:
     url: https://school.programmers.co.kr/learn/courses/30/lessons/42888
     difficulty: 2
     label: Lv.2
+  - id: programmers-92341
+    source: programmers
+    title: 주차 요금 계산
+    url: https://school.programmers.co.kr/learn/courses/30/lessons/92341
+    difficulty: 2
+    label: Lv.2
 assignments:
   jihoon-devstu:
     picked:
@@ -155,7 +167,9 @@ assignments:
       - programmers-1845
     random: programmers-42888
   myh7754:
-    picked: []
+    picked:
+      - programmers-17680
+      - programmers-92341
     random: leetcode-790
   perish95:
     picked:
