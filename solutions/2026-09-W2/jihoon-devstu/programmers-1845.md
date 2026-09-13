@@ -1,26 +1,42 @@
 ---
-status: doing
-language: cpp
+status: done
+language: java
 # 블로그 등 풀이 원문이 있으면 아래 주석을 해제해 입력합니다.
 # url: https://example.com/solution
 ---
 
 ## 접근
 
-문제를 어떻게 읽었고 어떤 자료구조나 알고리즘을 골랐는지 적습니다.
-왜 그 방법을 골랐는지, 처음에 떠올린 방법이 왜 안 되는지도 함께 적으면 좋습니다.
+1. 중복없이 포켓몬 종류에 대한 Hashmap을 만들기.
+2. Hashmap의 사이즈와 nums의 2분의1사이즈를 비교하여 , Hashmap의 사이즈가 더 큰경우 , Hashmap의 사이즈 반환 , 반대는 nums의2분의1사이즈 반환
 
 ## 풀이
 
-```python
-def solution(participant, completion):
-    from collections import Counter
-    return list(Counter(participant) - Counter(completion))[0]
+```java
+import java.util.HashMap;
+import java.util.Map;
+
+class Solution {
+    public int solution(int[] nums) {
+        
+        int halfnums = (nums.length/2);
+        
+        Map<Integer,Integer> pcount = new HashMap<>();
+        
+        for(int c : nums){
+            pcount.put(c,1);
+        }
+        
+        int psize = pcount.size();
+        
+        int answer = psize > halfnums ? halfnums : psize;
+        return answer;
+    }
+}
 ```
 
-시간복잡도와 공간복잡도를 적습니다. 예) 시간 O(n), 공간 O(n)
+시간 : O(N) , 공간 : O(N)
 
 ## 막혔던 부분
 
-풀면서 헤맨 지점, 놓쳤던 반례, 리뷰에서 배운 점을 적습니다.
-없으면 이 섹션은 생략합니다.
+1. 배열의 사이즈와 hashmap의 사이즈 추출 함수 -> .length 와 .size()
