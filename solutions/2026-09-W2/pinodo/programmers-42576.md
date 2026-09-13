@@ -7,20 +7,24 @@ language: python
 
 ## 접근
 
-문제를 어떻게 읽었고 어떤 자료구조나 알고리즘을 골랐는지 적습니다.
-왜 그 방법을 골랐는지, 처음에 떠올린 방법이 왜 안 되는지도 함께 적으면 좋습니다.
+collections 라이브러리의 Counter 함수(HashMap상태로 저장)를 이용함.
+각 요소의 갯수를 카운트해서 HashMap(dict)로 저장함.
+참가자의 카운트 - 완주자의 카운트 = 미완주자의 카운트.
+마지막으로 dict를 list로 바꿔주고, 그 안의 string 값을 반환함.
 
 ## 풀이
 
 ```python
+from collections import Counter
+
 def solution(participant, completion):
-    from collections import Counter
     return list(Counter(participant) - Counter(completion))[0]
 ```
 
-시간복잡도와 공간복잡도를 적습니다. 예) 시간 O(n), 공간 O(n)
+시간 O(n), 공간 O(m)
 
 ## 막혔던 부분
 
-풀면서 헤맨 지점, 놓쳤던 반례, 리뷰에서 배운 점을 적습니다.
-없으면 이 섹션은 생략합니다.
+처음에는 for elem in participant 순회로 완주자 목록에 있을 시, 완주자 목록에서 하나씩 지움.
+답은 맞았지만 시간효율성에서 탈락함.
+이후에 Counter 라이브러리 알게 된 후, 사용함.
