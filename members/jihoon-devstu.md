@@ -1,7 +1,7 @@
 ---
 levels:
-  programmers: [1, 2, 3, 4, 5]
-  leetcode: [Easy, Medium, Hard]
+  programmers: [1]
+  leetcode: [Easy]
 ---
 
 # 구지훈
