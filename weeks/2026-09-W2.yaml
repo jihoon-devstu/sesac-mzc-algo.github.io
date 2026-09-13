@@ -124,6 +124,12 @@ problems:
     url: https://school.programmers.co.kr/learn/courses/30/lessons/1844
     difficulty: 2
     label: Lv.2
+  - id: programmers-1845
+    source: programmers
+    title: 폰켓몬
+    url: https://school.programmers.co.kr/learn/courses/30/lessons/1845
+    difficulty: 1
+    label: Lv.1
   - id: programmers-42576
     source: programmers
     title: 완주하지 못한 선수
@@ -144,7 +150,9 @@ problems:
     label: Lv.2
 assignments:
   jihoon-devstu:
-    picked: []
+    picked:
+      - programmers-42576
+      - programmers-1845
     random: programmers-42888
   myh7754:
     picked: []
