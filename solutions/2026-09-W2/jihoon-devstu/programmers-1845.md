@@ -37,6 +37,8 @@ class Solution {
 
 시간 : O(N) , 공간 : O(N)
 
+소요시간: 약 5분
+
 ## 막혔던 부분
 
 1. 배열의 사이즈와 hashmap의 사이즈 추출 함수 -> .length 와 .size()
