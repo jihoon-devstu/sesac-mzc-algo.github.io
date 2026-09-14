@@ -1,5 +1,5 @@
 ---
-status: doing
+status: done
 language: python
 # 블로그 등 풀이 원문이 있으면 아래 주석을 해제해 입력합니다.
 # url: https://example.com/solution
@@ -7,20 +7,35 @@ language: python
 
 ## 접근
 
-문제를 어떻게 읽었고 어떤 자료구조나 알고리즘을 골랐는지 적습니다.
-왜 그 방법을 골랐는지, 처음에 떠올린 방법이 왜 안 되는지도 함께 적으면 좋습니다.
+combinations 라이브러리를 통해 세 숫자의 조합을 리스트에 넣고, 각 조합의 합을 구함.
+별도의 소수 판별 메서드를 통해 소수인지 판별하고, 소수가 맞으면 res값을 하나 올림.
 
 ## 풀이
 
 ```python
-def solution(participant, completion):
-    from collections import Counter
-    return list(Counter(participant) - Counter(completion))[0]
+from itertools import combinations
+
+def solution(nums) -> int:
+    res = 0
+    outputs = list(combinations(nums, 3))
+    for i in range(len(outputs)):
+        sums = sum(outputs[i])
+        print(sums, isPrimeNum(sums))
+        if (isPrimeNum(sums)):
+            res += 1
+    return res
+
+def isPrimeNum(num) -> bool:
+    if (num == 1): return False
+    if (num == 2): return True
+    for i in range(3, num):
+        if (num % i == 0):
+            return False
+    return True
 ```
 
-시간복잡도와 공간복잡도를 적습니다. 예) 시간 O(n), 공간 O(n)
+시간복잡도: O(n)
 
 ## 막혔던 부분
 
-풀면서 헤맨 지점, 놓쳤던 반례, 리뷰에서 배운 점을 적습니다.
-없으면 이 섹션은 생략합니다.
+소수를 구하는 메서드 구현이 생각이 안남. 3부터 num-1까지의 모든 수를 순회
