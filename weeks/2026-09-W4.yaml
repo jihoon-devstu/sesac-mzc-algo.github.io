@@ -118,6 +118,12 @@ problems:
     url: https://school.programmers.co.kr/learn/courses/30/lessons/42746
     difficulty: 2
     label: Lv.2
+  - id: programmers-42747
+    source: programmers
+    title: H-Index
+    url: https://school.programmers.co.kr/learn/courses/30/lessons/42747
+    difficulty: 2
+    label: Lv.2
   - id: programmers-92334
     source: programmers
     title: 신고 결과 받기
@@ -142,5 +148,7 @@ assignments:
     picked: []
     random: programmers-92334
   sjungwon03:
-    picked: []
+    picked:
+      - leetcode-215
+      - programmers-42747
     random: leetcode-136
