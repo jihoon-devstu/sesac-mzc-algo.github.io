@@ -1,5 +1,5 @@
 ---
-status: todo
+status: done
 language: java
 ---
 
@@ -29,7 +29,20 @@ class Solution {
 
 ```
 
+sort 를 쓴 버전
+
+```java
+
+public int majorityElement(int[] nums) {
+    Arrays.sort(nums);
+    return nums[nums.length / 2];
+}
+
+```
+
 시간 O(n), 공간 O(n)
+소요시간 : 20분
+
 
 ## 막혔던 부분
 
