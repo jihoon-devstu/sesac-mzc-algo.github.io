@@ -112,6 +112,12 @@ problems:
     url: https://leetcode.com/problems/word-search/
     difficulty: 2
     label: Medium
+  - id: leetcode-88
+    source: leetcode
+    title: 88. Merge Sorted Array
+    url: https://leetcode.com/problems/merge-sorted-array/
+    difficulty: 1
+    label: Easy
   - id: programmers-42746
     source: programmers
     title: 가장 큰 수
@@ -132,7 +138,9 @@ problems:
     label: Lv.1
 assignments:
   jihoon-devstu:
-    picked: []
+    picked:
+      - leetcode-88
+      - leetcode-215
     random: leetcode-169
   myh7754:
     picked:
