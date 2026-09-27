@@ -1,5 +1,5 @@
 ---
-status: todo
+status: done
 language: java
 ---
 
@@ -34,7 +34,7 @@ class Solution {
 
 시간복잡도 O(n²), 공간복잡도 O(1)
 
-든 시간 : 20분
+소요 시간 : 20분
 
 ## 막혔던 부분
 
