@@ -1,6 +1,6 @@
 ---
 status: doing
-language: python3
+language: python
 # 블로그 등 풀이 원문이 있으면 아래 주석을 해제해 입력합니다.
 # url: https://example.com/solution
 # 파일명 양식
