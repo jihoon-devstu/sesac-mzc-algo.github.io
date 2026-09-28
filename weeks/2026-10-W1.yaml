@@ -1,0 +1,124 @@
+topic: two-pointers
+topic-name: 투 포인터
+start: 2026-09-28
+end: 2026-10-04
+suggestions:
+  - id: programmers-12977
+    source: programmers
+    title: 소수 만들기
+    url: https://school.programmers.co.kr/learn/courses/30/lessons/12977
+    difficulty: 1
+    label: Lv.1
+  - id: leetcode-345
+    source: leetcode
+    title: 345. Reverse Vowels of a String
+    url: https://leetcode.com/problems/reverse-vowels-of-a-string/
+    difficulty: 1
+    label: Easy
+  - id: programmers-178870
+    source: programmers
+    title: 연속된 부분 수열의 합
+    url: https://school.programmers.co.kr/learn/courses/30/lessons/178870
+    difficulty: 2
+    label: Lv.2
+  - id: leetcode-611
+    source: leetcode
+    title: 611. Valid Triangle Number
+    url: https://leetcode.com/problems/valid-triangle-number/
+    difficulty: 2
+    label: Medium
+  - id: leetcode-42
+    source: leetcode
+    title: 42. Trapping Rain Water
+    url: https://leetcode.com/problems/trapping-rain-water/
+    difficulty: 3
+    label: Hard
+  - id: leetcode-141
+    source: leetcode
+    title: 141. Linked List Cycle
+    url: https://leetcode.com/problems/linked-list-cycle/
+    difficulty: 1
+    label: Easy
+  - id: programmers-131701
+    source: programmers
+    title: 연속 부분 수열 합의 개수
+    url: https://school.programmers.co.kr/learn/courses/30/lessons/131701
+    difficulty: 2
+    label: Lv.2
+  - id: leetcode-189
+    source: leetcode
+    title: 189. Rotate Array
+    url: https://leetcode.com/problems/rotate-array/
+    difficulty: 2
+    label: Medium
+  - id: leetcode-295
+    source: leetcode
+    title: 295. Find Median from Data Stream
+    url: https://leetcode.com/problems/find-median-from-data-stream/
+    difficulty: 3
+    label: Hard
+  - id: leetcode-283
+    source: leetcode
+    title: 283. Move Zeroes
+    url: https://leetcode.com/problems/move-zeroes/
+    difficulty: 1
+    label: Easy
+  - id: leetcode-80
+    source: leetcode
+    title: 80. Remove Duplicates from Sorted Array II
+    url: https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/
+    difficulty: 2
+    label: Medium
+  - id: leetcode-321
+    source: leetcode
+    title: 321. Create Maximum Number
+    url: https://leetcode.com/problems/create-maximum-number/
+    difficulty: 3
+    label: Hard
+problems:
+  - id: leetcode-146
+    source: leetcode
+    title: 146. LRU Cache
+    url: https://leetcode.com/problems/lru-cache/
+    difficulty: 2
+    label: Medium
+  - id: leetcode-207
+    source: leetcode
+    title: 207. Course Schedule
+    url: https://leetcode.com/problems/course-schedule/
+    difficulty: 2
+    label: Medium
+  - id: leetcode-345
+    source: leetcode
+    title: 345. Reverse Vowels of a String
+    url: https://leetcode.com/problems/reverse-vowels-of-a-string/
+    difficulty: 1
+    label: Easy
+  - id: leetcode-95
+    source: leetcode
+    title: 95. Unique Binary Search Trees II
+    url: https://leetcode.com/problems/unique-binary-search-trees-ii/
+    difficulty: 2
+    label: Medium
+  - id: programmers-12907
+    source: programmers
+    title: 거스름돈
+    url: https://school.programmers.co.kr/learn/courses/30/lessons/12907
+    difficulty: 3
+    label: Lv.4
+assignments:
+  jihoon-devstu:
+    picked: []
+    random: leetcode-345
+  myh7754:
+    picked: []
+    random: leetcode-95
+  perish95:
+    picked: []
+    random: leetcode-207
+  pinodo:
+    picked: []
+    random: leetcode-146
+  sjungwon03:
+    picked: []
+    random: programmers-12907
