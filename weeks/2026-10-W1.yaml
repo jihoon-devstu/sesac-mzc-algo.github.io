@@ -82,6 +82,12 @@ problems:
     url: https://leetcode.com/problems/lru-cache/
     difficulty: 2
     label: Medium
+  - id: leetcode-189
+    source: leetcode
+    title: 189. Rotate Array
+    url: https://leetcode.com/problems/rotate-array/
+    difficulty: 2
+    label: Medium
   - id: leetcode-207
     source: leetcode
     title: 207. Course Schedule
@@ -106,6 +112,12 @@ problems:
     url: https://school.programmers.co.kr/learn/courses/30/lessons/12907
     difficulty: 3
     label: Lv.4
+  - id: programmers-178870
+    source: programmers
+    title: 연속된 부분 수열의 합
+    url: https://school.programmers.co.kr/learn/courses/30/lessons/178870
+    difficulty: 2
+    label: Lv.2
 assignments:
   jihoon-devstu:
     picked: []
@@ -114,7 +126,9 @@ assignments:
     picked: []
     random: leetcode-95
   perish95:
-    picked: []
+    picked:
+      - programmers-178870
+      - leetcode-189
     random: leetcode-207
   pinodo:
     picked: []
