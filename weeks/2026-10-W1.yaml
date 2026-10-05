@@ -76,6 +76,12 @@ suggestions:
     difficulty: 3
     label: Hard
 problems:
+  - id: leetcode-141
+    source: leetcode
+    title: 141. Linked List Cycle
+    url: https://leetcode.com/problems/linked-list-cycle/
+    difficulty: 1
+    label: Easy
   - id: leetcode-146
     source: leetcode
     title: 146. LRU Cache
@@ -134,5 +140,7 @@ assignments:
     picked: []
     random: leetcode-146
   sjungwon03:
-    picked: []
+    picked:
+      - leetcode-345
+      - leetcode-141
     random: programmers-12907

@@ -43,7 +43,7 @@ async function main() {
   let changed = 0;
 
   for (const week of weeks) {
-    if (week.end < today) continue;                       // 지나간 주차는 그대로 둔다
+    const isPast = week.end < today;
 
     const assignments = { ...(week.assignments ?? {}) };
     const resolved = [];
@@ -87,9 +87,17 @@ async function main() {
       assignments[login] = { ...current, picked: picked.slice(0, MAX_PICKS) };
     }
 
-    // (2) 랜덤 문제 자동 배정
+    if (isPast && resolved.length === 0) {
+      for (const note of notes) console.log(note);
+      continue;
+    }
+
+    // (2) 랜덤 문제 자동 배정 — 지난 주차는 직접 고른 문제만 등록한다.
     const withPicks = { ...week, assignments, problems: syncCatalog({ ...week, assignments }, resolved) };
-    const { added, week: next } = assignMembers(withPicks, { problems, weeks, members });
+    const result = isPast
+      ? { added: 0, week: withPicks }
+      : assignMembers(withPicks, { problems, weeks, members });
+    const { added, week: next } = result;
     changed += added;
     if (added > 0) {
       const newcomers = Object.keys(next.assignments).filter((login) => !week.assignments?.[login]?.random);
