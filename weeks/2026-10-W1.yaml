@@ -106,6 +106,12 @@ problems:
     url: https://leetcode.com/problems/reverse-vowels-of-a-string/
     difficulty: 1
     label: Easy
+  - id: leetcode-80
+    source: leetcode
+    title: 80. Remove Duplicates from Sorted Array II
+    url: https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/
+    difficulty: 2
+    label: Medium
   - id: leetcode-95
     source: leetcode
     title: 95. Unique Binary Search Trees II
@@ -137,7 +143,9 @@ assignments:
       - leetcode-189
     random: leetcode-207
   pinodo:
-    picked: []
+    picked:
+      - leetcode-189
+      - leetcode-80
     random: leetcode-146
   sjungwon03:
     picked:
