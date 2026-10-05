@@ -1,0 +1,124 @@
+topic: sliding-window
+topic-name: 슬라이딩 윈도우
+start: 2026-10-05
+end: 2026-10-11
+suggestions:
+  - id: leetcode-643
+    source: leetcode
+    title: 643. Maximum Average Subarray I
+    url: https://leetcode.com/problems/maximum-average-subarray-i/
+    difficulty: 1
+    label: Easy
+  - id: programmers-12904
+    source: programmers
+    title: 가장 긴 팰린드롬
+    url: https://school.programmers.co.kr/learn/courses/30/lessons/12904
+    difficulty: 2
+    label: Lv.3
+  - id: leetcode-658
+    source: leetcode
+    title: 658. Find K Closest Elements
+    url: https://leetcode.com/problems/find-k-closest-elements/
+    difficulty: 2
+    label: Medium
+  - id: leetcode-30
+    source: leetcode
+    title: 30. Substring with Concatenation of All Words
+    url: https://leetcode.com/problems/substring-with-concatenation-of-all-words/
+    difficulty: 3
+    label: Hard
+  - id: leetcode-219
+    source: leetcode
+    title: 219. Contains Duplicate II
+    url: https://leetcode.com/problems/contains-duplicate-ii/
+    difficulty: 1
+    label: Easy
+  - id: leetcode-1004
+    source: leetcode
+    title: 1004. Max Consecutive Ones III
+    url: https://leetcode.com/problems/max-consecutive-ones-iii/
+    difficulty: 2
+    label: Medium
+  - id: leetcode-76
+    source: leetcode
+    title: 76. Minimum Window Substring
+    url: https://leetcode.com/problems/minimum-window-substring/
+    difficulty: 3
+    label: Hard
+  - id: leetcode-594
+    source: leetcode
+    title: 594. Longest Harmonious Subsequence
+    url: https://leetcode.com/problems/longest-harmonious-subsequence/
+    difficulty: 1
+    label: Easy
+  - id: leetcode-3
+    source: leetcode
+    title: 3. Longest Substring Without Repeating Characters
+    url: https://leetcode.com/problems/longest-substring-without-repeating-characters/
+    difficulty: 2
+    label: Medium
+  - id: leetcode-480
+    source: leetcode
+    title: 480. Sliding Window Median
+    url: https://leetcode.com/problems/sliding-window-median/
+    difficulty: 3
+    label: Hard
+  - id: leetcode-209
+    source: leetcode
+    title: 209. Minimum Size Subarray Sum
+    url: https://leetcode.com/problems/minimum-size-subarray-sum/
+    difficulty: 2
+    label: Medium
+  - id: leetcode-689
+    source: leetcode
+    title: 689. Maximum Sum of 3 Non-Overlapping Subarrays
+    url: https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/
+    difficulty: 3
+    label: Hard
+problems:
+  - id: leetcode-290
+    source: leetcode
+    title: 290. Word Pattern
+    url: https://leetcode.com/problems/word-pattern/
+    difficulty: 1
+    label: Easy
+  - id: leetcode-98
+    source: leetcode
+    title: 98. Validate Binary Search Tree
+    url: https://leetcode.com/problems/validate-binary-search-tree/
+    difficulty: 2
+    label: Medium
+  - id: programmers-42586
+    source: programmers
+    title: 기능개발
+    url: https://school.programmers.co.kr/learn/courses/30/lessons/42586
+    difficulty: 2
+    label: Lv.2
+  - id: programmers-42748
+    source: programmers
+    title: K번째수
+    url: https://school.programmers.co.kr/learn/courses/30/lessons/42748
+    difficulty: 1
+    label: Lv.1
+  - id: programmers-42839
+    source: programmers
+    title: 소수 찾기
+    url: https://school.programmers.co.kr/learn/courses/30/lessons/42839
+    difficulty: 2
+    label: Lv.2
+assignments:
+  jihoon-devstu:
+    picked: []
+    random: leetcode-290
+  myh7754:
+    picked: []
+    random: programmers-42586
+  perish95:
+    picked: []
+    random: leetcode-98
+  pinodo:
+    picked: []
+    random: programmers-42839
+  sjungwon03:
+    picked: []
+    random: programmers-42748
