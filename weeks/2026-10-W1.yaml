@@ -106,6 +106,12 @@ problems:
     url: https://leetcode.com/problems/reverse-vowels-of-a-string/
     difficulty: 1
     label: Easy
+  - id: leetcode-611
+    source: leetcode
+    title: 611. Valid Triangle Number
+    url: https://leetcode.com/problems/valid-triangle-number/
+    difficulty: 2
+    label: Medium
   - id: leetcode-80
     source: leetcode
     title: 80. Remove Duplicates from Sorted Array II
@@ -135,7 +141,9 @@ assignments:
     picked: []
     random: leetcode-345
   myh7754:
-    picked: []
+    picked:
+      - programmers-178870
+      - leetcode-611
     random: leetcode-95
   perish95:
     picked:
