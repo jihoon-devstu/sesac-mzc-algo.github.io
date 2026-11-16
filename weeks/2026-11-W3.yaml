@@ -1,0 +1,124 @@
+topic: dp
+topic-name: 동적 계획법
+start: 2026-11-16
+end: 2026-11-22
+suggestions:
+  - id: leetcode-746
+    source: leetcode
+    title: 746. Min Cost Climbing Stairs
+    url: https://leetcode.com/problems/min-cost-climbing-stairs/
+    difficulty: 1
+    label: Easy
+  - id: programmers-43105
+    source: programmers
+    title: 정수 삼각형
+    url: https://school.programmers.co.kr/learn/courses/30/lessons/43105
+    difficulty: 2
+    label: Lv.3
+  - id: leetcode-122
+    source: leetcode
+    title: 122. Best Time to Buy and Sell Stock II
+    url: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
+    difficulty: 2
+    label: Medium
+  - id: programmers-12907
+    source: programmers
+    title: 거스름돈
+    url: https://school.programmers.co.kr/learn/courses/30/lessons/12907
+    difficulty: 3
+    label: Lv.4
+  - id: leetcode-115
+    source: leetcode
+    title: 115. Distinct Subsequences
+    url: https://leetcode.com/problems/distinct-subsequences/
+    difficulty: 3
+    label: Hard
+  - id: leetcode-509
+    source: leetcode
+    title: 509. Fibonacci Number
+    url: https://leetcode.com/problems/fibonacci-number/
+    difficulty: 1
+    label: Easy
+  - id: programmers-42895
+    source: programmers
+    title: N으로 표현
+    url: https://school.programmers.co.kr/learn/courses/30/lessons/42895
+    difficulty: 2
+    label: Lv.3
+  - id: leetcode-45
+    source: leetcode
+    title: 45. Jump Game II
+    url: https://leetcode.com/problems/jump-game-ii/
+    difficulty: 2
+    label: Medium
+  - id: leetcode-124
+    source: leetcode
+    title: 124. Binary Tree Maximum Path Sum
+    url: https://leetcode.com/problems/binary-tree-maximum-path-sum/
+    difficulty: 3
+    label: Hard
+  - id: leetcode-392
+    source: leetcode
+    title: 392. Is Subsequence
+    url: https://leetcode.com/problems/is-subsequence/
+    difficulty: 1
+    label: Easy
+  - id: programmers-12913
+    source: programmers
+    title: 땅따먹기
+    url: https://school.programmers.co.kr/learn/courses/30/lessons/12913
+    difficulty: 2
+    label: Lv.2
+  - id: leetcode-96
+    source: leetcode
+    title: 96. Unique Binary Search Trees
+    url: https://leetcode.com/problems/unique-binary-search-trees/
+    difficulty: 2
+    label: Medium
+problems:
+  - id: leetcode-354
+    source: leetcode
+    title: 354. Russian Doll Envelopes
+    url: https://leetcode.com/problems/russian-doll-envelopes/
+    difficulty: 3
+    label: Hard
+  - id: leetcode-380
+    source: leetcode
+    title: 380. Insert Delete GetRandom O(1)
+    url: https://leetcode.com/problems/insert-delete-getrandom-o1/
+    difficulty: 2
+    label: Medium
+  - id: leetcode-452
+    source: leetcode
+    title: 452. Minimum Number of Arrows to Burst Balloons
+    url: https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/
+    difficulty: 2
+    label: Medium
+  - id: leetcode-56
+    source: leetcode
+    title: 56. Merge Intervals
+    url: https://leetcode.com/problems/merge-intervals/
+    difficulty: 2
+    label: Medium
+  - id: leetcode-700
+    source: leetcode
+    title: 700. Search in a Binary Search Tree
+    url: https://leetcode.com/problems/search-in-a-binary-search-tree/
+    difficulty: 1
+    label: Easy
+assignments:
+  jihoon-devstu:
+    picked: []
+    random: leetcode-700
+  myh7754:
+    picked: []
+    random: leetcode-354
+  perish95:
+    picked: []
+    random: leetcode-380
+  pinodo:
+    picked: []
+    random: leetcode-452
+  sjungwon03:
+    picked: []
+    random: leetcode-56
