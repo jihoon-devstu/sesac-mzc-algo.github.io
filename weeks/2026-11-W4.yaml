@@ -1,0 +1,124 @@
+topic: heap
+topic-name: 힙 / 우선순위 큐
+start: 2026-11-23
+end: 2026-11-29
+suggestions:
+  - id: leetcode-703
+    source: leetcode
+    title: 703. Kth Largest Element in a Stream
+    url: https://leetcode.com/problems/kth-largest-element-in-a-stream/
+    difficulty: 1
+    label: Easy
+  - id: programmers-42627
+    source: programmers
+    title: 디스크 컨트롤러
+    url: https://school.programmers.co.kr/learn/courses/30/lessons/42627
+    difficulty: 2
+    label: Lv.3
+  - id: leetcode-658
+    source: leetcode
+    title: 658. Find K Closest Elements
+    url: https://leetcode.com/problems/find-k-closest-elements/
+    difficulty: 2
+    label: Medium
+  - id: leetcode-295
+    source: leetcode
+    title: 295. Find Median from Data Stream
+    url: https://leetcode.com/problems/find-median-from-data-stream/
+    difficulty: 3
+    label: Hard
+  - id: leetcode-1046
+    source: leetcode
+    title: 1046. Last Stone Weight
+    url: https://leetcode.com/problems/last-stone-weight/
+    difficulty: 1
+    label: Easy
+  - id: programmers-42626
+    source: programmers
+    title: 더 맵게
+    url: https://school.programmers.co.kr/learn/courses/30/lessons/42626
+    difficulty: 2
+    label: Lv.2
+  - id: leetcode-373
+    source: leetcode
+    title: 373. Find K Pairs with Smallest Sums
+    url: https://leetcode.com/problems/find-k-pairs-with-smallest-sums/
+    difficulty: 2
+    label: Medium
+  - id: leetcode-23
+    source: leetcode
+    title: 23. Merge k Sorted Lists
+    url: https://leetcode.com/problems/merge-k-sorted-lists/
+    difficulty: 3
+    label: Hard
+  - id: leetcode-506
+    source: leetcode
+    title: 506. Relative Ranks
+    url: https://leetcode.com/problems/relative-ranks/
+    difficulty: 1
+    label: Easy
+  - id: programmers-42628
+    source: programmers
+    title: 이중우선순위큐
+    url: https://school.programmers.co.kr/learn/courses/30/lessons/42628
+    difficulty: 2
+    label: Lv.3
+  - id: leetcode-215
+    source: leetcode
+    title: 215. Kth Largest Element in an Array
+    url: https://leetcode.com/problems/kth-largest-element-in-an-array/
+    difficulty: 2
+    label: Medium
+  - id: leetcode-502
+    source: leetcode
+    title: 502. IPO
+    url: https://leetcode.com/problems/ipo/
+    difficulty: 3
+    label: Hard
+problems:
+  - id: leetcode-191
+    source: leetcode
+    title: 191. Number of 1 Bits
+    url: https://leetcode.com/problems/number-of-1-bits/
+    difficulty: 1
+    label: Easy
+  - id: leetcode-3
+    source: leetcode
+    title: 3. Longest Substring Without Repeating Characters
+    url: https://leetcode.com/problems/longest-substring-without-repeating-characters/
+    difficulty: 2
+    label: Medium
+  - id: leetcode-700
+    source: leetcode
+    title: 700. Search in a Binary Search Tree
+    url: https://leetcode.com/problems/search-in-a-binary-search-tree/
+    difficulty: 1
+    label: Easy
+  - id: leetcode-98
+    source: leetcode
+    title: 98. Validate Binary Search Tree
+    url: https://leetcode.com/problems/validate-binary-search-tree/
+    difficulty: 2
+    label: Medium
+  - id: programmers-12907
+    source: programmers
+    title: 거스름돈
+    url: https://school.programmers.co.kr/learn/courses/30/lessons/12907
+    difficulty: 3
+    label: Lv.4
+assignments:
+  jihoon-devstu:
+    picked: []
+    random: leetcode-191
+  myh7754:
+    picked: []
+    random: programmers-12907
+  perish95:
+    picked: []
+    random: leetcode-700
+  pinodo:
+    picked: []
+    random: leetcode-98
+  sjungwon03:
+    picked: []
+    random: leetcode-3
